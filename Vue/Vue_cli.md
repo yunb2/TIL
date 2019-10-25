@@ -8,36 +8,36 @@
 
 - 개발환경 구축을 위해서는 Node.js가 필요
 
-  ```
-  node -v // node 버전확인
-  npm install -g @vue/cli // npm을 통해 vue 설치
-  sudo npm install -g @vue/cli // error 발생 시 관리자 권한으로 
-  vue --version // vue 버전 확인
+  ```shell
+  node -v # node 버전확인
+  npm install -g @vue/cli # npm을 통해 vue 설치
+  sudo npm install -g @vue/cli # error 발생 시 관리자 권한으로 
+  vue --version # vue 버전 확인
   ```
 
 - 프로젝트 생성
 
-  ```
+  ```shell
   vue create [프로젝트명]
   
-  // 프로젝트 설정
-  ? Please pick a preset: 
-   > Manually select features
-  ? Check the features needed for your project:
-   > Babel, Router, Vuex
-  ? Use history mode for router?
-   > Y
-  ? Where do you perfer placing config for Babel, PostCSS, ESLint, etc.?
-   > In package.json
-  ? Save this as a preset for future project? (개발환경 저장여부)
-   > N
+  # 프로젝트 설정
+  # ? Please pick a preset: 
+  #  > Manually select features
+  # ? Check the features needed for your project:
+  #  > Babel, Router, Vuex
+  # ? Use history mode for router?
+  #  > Y
+  # ? Where do you perfer placing config for Babel, PostCSS, ESLint, etc.?
+  #  > In package.json
+  # ? Save this as a preset for future project? (개발환경 저장여부)
+  #  > N
   ```
 
 - 프로젝트 실행
 
-  ```
-  npm run serve // Compiles and hot-reloads for development
-  npm run build // Compiles and minifies for production
+  ```shell
+  npm run serve # Compiles and hot-reloads for development
+  npm run build # Compiles and minifies for production
   ```
 
 - 프로젝트 구조
@@ -58,28 +58,28 @@
 
 - Vuetify 플러그인 설치
 
-  ```
+  ```shell
   vue add vuetify
   
-  // vuetify 설정
-  ? Choose a preset
-   > Configure
-  ? Use a pre-made template?
-   > Y
-  ? Use custum theme?
-   > N
-  ? Use custum properties?
-   > N
-  ? Select icon font
-   > Font Awesome 5
-  ? Use fonts as a dependency?
-   > N
-  ? Use a-la-carte components?
-   > N
-  ? Use babel/polyfill?
-   > Y
-  ? Select locale
-   > en
+  # vuetify 설정
+  # ? Choose a preset
+  #  > Configure
+  # ? Use a pre-made template?
+  #  > Y
+  # ? Use custum theme?
+  #  > N
+  # ? Use custum properties?
+  #  > N
+  # ? Select icon font
+  #  > Font Awesome 5
+  # ? Use fonts as a dependency?
+  #  > N
+  # ? Use a-la-carte components?
+  #  > N
+  # ? Use babel/polyfill?
+  #  > Y
+  # ? Select locale
+  #  > en
   ```
 
 
