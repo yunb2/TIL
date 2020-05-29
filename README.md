@@ -14,15 +14,12 @@
 ### Vue
 
 - <a href="./Vue/Vue_cli.md">CLI 3.0</a>
-- <a href="./Vue/Vuex_module.md">Vuex module</a>
-- <a href="./Vue/Vuex_watch.md">Vuex watch</a>
 
 
 
-### Job Fair
+### Database
 
-- <a href="./Job Fair/jobfair_1.md">1일차</a>
-- <a href="./Job Fair/jobfair_2.md">2일차</a>
+- <a href="./Database/MySQL.md">프로그래머스 SQL 고득점 Kit</a>
 
 
 
